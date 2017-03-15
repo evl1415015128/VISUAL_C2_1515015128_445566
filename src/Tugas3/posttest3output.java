@@ -1,36 +1,42 @@
-package Tugas2;
-import javax.swing.JLabel;
-public class Posttest2Outpout extends javax.swing.JFrame {
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Tugas3;
+
+/**
+ *
+ * @author User
+ */
+public class posttest3output extends javax.swing.JFrame {
 
     /**
-     * Creates new form Posttest2Outpout
+     * Creates new form posttest3output
      */
-    public Posttest2Outpout() {
-        
-            initComponents();
-        
+    public posttest3output() {
+        initComponents();
     }
-    public Posttest2Outpout(String nama, String ttl1, String ttl2, String alamat, String rt1, String rt2, String kelurahan, String kecamatan, String kota, String pekerjaan, String agama, String status, String goldar, String JenisKelamin, String warganegara) {
-        
+    public posttest3output(String nama, String ttl1, String ttl2, String alamat, String rt1, String rt2, String kelurahan, String kecamatan, String kota, String pekerjaan, String agama, String status, String goldar, String JenisKelamin, String warganegara) {
+    //overloading contructor dari class posttest 3    
     initComponents();
-    jnama.setText(nama);
-    jttl1.setText(ttl1);
-    jttl2.setText(ttl2);
-    jalamat.setText(alamat);
-    jrt1.setText(rt1);
-    jrt2.setText(rt2);
-    jkel.setText(kelurahan);
-    jkec.setText(kecamatan);
-    jkota.setText(kota);
-    jkerja.setText(pekerjaan);
+    jnama.setText(nama);//sebuah koponen visual jlabel yang diberi nama jnama yang digunakan untuk tempat output untuk variable nama
+    jttl1.setText(ttl1);//sebuah koponen visual jlabel yang diberi nama jttl1 yang digunakan untuk tempat output untuk variable ttl1
+    jttl2.setText(ttl2);//sebuah koponen visual jlabel yang diberi nama jttl2 yang digunakan untuk tempat output untuk variable ttl2
+    jalamat.setText(alamat);//sebuah koponen visual jlabel yang diberi nama jalamat yang digunakan untuk tempat output untuk variable alamat
+    jrt1.setText(rt1);//sebuah koponen visual jlabel yang diberi nama jrt1 yang digunakan untuk tempat output untuk variable rt1
+    jrt2.setText(rt2);//sebuah koponen visual jlabel yang diberi nama jrt2 yang digunakan untuk tempat output untuk variable rt2
+    jkel.setText(kelurahan);//sebuah koponen visual jlabel yang diberi nama jkel yang digunakan untuk tempat output untuk variable kelurahan
+    jkec.setText(kecamatan);//sebuah koponen visual jlabel yang diberi nama jkec yang digunakan untuk tempat output untuk variable kecamatan
+    jkota.setText(kota);//sebuah koponen visual jlabel yang diberi nama jkota yang digunakan untuk tempat output untuk variable kota
+    jkerja.setText(pekerjaan);//sebuah koponen visual jlabel yang diberi nama jkerja yang digunakan untuk tempat output untuk variable kerja
     
     
-    jjk.setText(""+JenisKelamin);
-    jwarga.setText(""+warganegara);
-    
-    jagama.setText(""+agama);
-    jstatus.setText(""+status);
-    jgoldar.setText(""+goldar);
+    jjk.setText(""+JenisKelamin);//sebuah koponen visual jlabel yang diberi nama jjk yang digunakan untuk tempat output untuk variable jeniskelamin
+    jwarga.setText(""+warganegara);//sebuah koponen visual jlabel yang diberi nama jwarga yang digunakan untuk tempat output untuk variable warganegara
+    jagama.setText(""+agama);//sebuah koponen visual jlabel yang diberi nama jagama yang digunakan untuk tempat output untuk variable agama
+    jstatus.setText(""+status);//sebuah koponen visual jlabel yang diberi nama jstatus yang digunakan untuk tempat output untuk variable status
+    jgoldar.setText(""+goldar);//sebuah koponen visual jlabel yang diberi nama jgoldar yang digunakan untuk tempat output untuk variable goldar
     
     
     
@@ -47,8 +53,6 @@ public class Posttest2Outpout extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel7 = new javax.swing.JLabel();
-        button1 = new usu.widget.Button();
         txtGoldar = new javax.swing.JPanel();
         labelNama = new javax.swing.JLabel();
         labelTTL = new javax.swing.JLabel();
@@ -83,14 +87,7 @@ public class Posttest2Outpout extends javax.swing.JFrame {
         jLabel15 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setText("jLabel1");
-
-        button1.setText("button1");
-
-        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         txtGoldar.setBackground(new java.awt.Color(51, 51, 51));
         txtGoldar.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Kartu Tanda Penduduk (KTP)", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 18), new java.awt.Color(255, 255, 255))); // NOI18N
@@ -368,7 +365,26 @@ public class Posttest2Outpout extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        getContentPane().add(txtGoldar, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 703, Short.MAX_VALUE)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(txtGoldar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 562, Short.MAX_VALUE)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(txtGoldar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -395,30 +411,28 @@ public class Posttest2Outpout extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Posttest2Outpout.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(posttest3output.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Posttest2Outpout.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(posttest3output.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Posttest2Outpout.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(posttest3output.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Posttest2Outpout.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(posttest3output.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Posttest2Outpout().setVisible(true);
+                new posttest3output().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private usu.widget.Button button1;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jagama;
     private javax.swing.JLabel jalamat;
     private javax.swing.JLabel jgoldar;

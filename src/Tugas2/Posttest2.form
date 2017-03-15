@@ -90,49 +90,42 @@
                   <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="cbGoldar" min="-2" max="-2" attributes="0"/>
-                              <Component id="cbStatus" min="-2" max="-2" attributes="0"/>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="rblakilaki" min="-2" pref="85" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="rbperempuan" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" attributes="0">
-                                  <Component id="tfTTL1" min="-2" pref="111" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jLabel15" min="-2" pref="14" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="tfTTL2" min="-2" pref="111" max="-2" attributes="0"/>
-                              </Group>
-                              <Component id="tfNama" max="32767" attributes="0"/>
-                              <Component id="tfalamat" alignment="0" max="32767" attributes="0"/>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="tfRT1" min="-2" pref="48" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel16" min="-2" pref="6" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="tfRT2" min="-2" pref="48" max="-2" attributes="0"/>
-                              </Group>
-                              <Component id="tfKEL" alignment="0" max="32767" attributes="0"/>
-                              <Component id="tfKEC" alignment="0" max="32767" attributes="0"/>
-                              <Component id="tfKOTA" alignment="0" max="32767" attributes="0"/>
-                              <Component id="tfPEKERJAAN" alignment="0" max="32767" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="rbwna" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="rbwni" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="rbwna" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="rbwni" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Component id="cbAgama" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                      <Component id="cbAgama" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="cbGoldar" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbStatus" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rblakilaki" min="-2" pref="85" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="rbperempuan" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="tfTTL1" min="-2" pref="111" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jLabel15" min="-2" pref="14" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tfTTL2" min="-2" pref="111" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="tfNama" max="32767" attributes="0"/>
+                          <Component id="tfalamat" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="tfRT1" min="-2" pref="48" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel16" min="-2" pref="6" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tfRT2" min="-2" pref="48" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="tfKEL" alignment="0" max="32767" attributes="0"/>
+                          <Component id="tfKEC" alignment="0" max="32767" attributes="0"/>
+                          <Component id="tfKOTA" alignment="0" max="32767" attributes="0"/>
+                          <Component id="tfPEKERJAAN" alignment="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -179,12 +172,12 @@
                       <Component id="labelKec" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="tfKEC" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="labelKota" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="tfKOTA" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="labelAgama" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="cbAgama" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -363,9 +356,6 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="tfNama">
-          <AuxValues>
-            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
-          </AuxValues>
         </Component>
         <Component class="javax.swing.JTextField" name="tfTTL1">
         </Component>
