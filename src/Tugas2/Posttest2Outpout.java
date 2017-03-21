@@ -63,25 +63,24 @@ public class Posttest2Outpout extends javax.swing.JFrame {
         labelGoldar = new javax.swing.JLabel();
         labelPekerjaan = new javax.swing.JLabel();
         label = new javax.swing.JLabel();
-        panelGlass1 = new usu.widget.glass.PanelGlass();
-        jLabel16 = new javax.swing.JLabel();
-        jttl1 = new javax.swing.JLabel();
-        jttl2 = new javax.swing.JLabel();
-        jjk = new javax.swing.JLabel();
-        jalamat = new javax.swing.JLabel();
-        jrt1 = new javax.swing.JLabel();
-        jrt2 = new javax.swing.JLabel();
-        jkel = new javax.swing.JLabel();
-        jkec = new javax.swing.JLabel();
-        jkota = new javax.swing.JLabel();
-        jagama = new javax.swing.JLabel();
-        jstatus = new javax.swing.JLabel();
-        jgoldar = new javax.swing.JLabel();
-        jkerja = new javax.swing.JLabel();
-        jwarga = new javax.swing.JLabel();
-        jnama = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
+        jwarga = new javax.swing.JLabel();
+        jkerja = new javax.swing.JLabel();
+        jgoldar = new javax.swing.JLabel();
+        jstatus = new javax.swing.JLabel();
+        jagama = new javax.swing.JLabel();
+        jkota = new javax.swing.JLabel();
+        jkec = new javax.swing.JLabel();
+        jkel = new javax.swing.JLabel();
+        jrt1 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jrt2 = new javax.swing.JLabel();
+        jalamat = new javax.swing.JLabel();
+        jjk = new javax.swing.JLabel();
+        jttl1 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jttl2 = new javax.swing.JLabel();
+        jnama = new javax.swing.JLabel();
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
@@ -148,154 +147,81 @@ public class Posttest2Outpout extends javax.swing.JFrame {
         label.setForeground(new java.awt.Color(255, 255, 255));
         label.setText("Kewarganegaraan");
 
-        jLabel16.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel16.setText("/");
-
-        jttl1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jttl1.setForeground(new java.awt.Color(255, 255, 255));
-        jttl1.setText("jLabel1");
-
-        jttl2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jttl2.setForeground(new java.awt.Color(255, 255, 255));
-        jttl2.setText("jLabel1");
-
-        jjk.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jjk.setForeground(new java.awt.Color(255, 255, 255));
-        jjk.setText("jLabel1");
-
-        jalamat.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jalamat.setForeground(new java.awt.Color(255, 255, 255));
-        jalamat.setText("jLabel1");
-
-        jrt1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jrt1.setForeground(new java.awt.Color(255, 255, 255));
-        jrt1.setText("jLabel1");
-
-        jrt2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jrt2.setForeground(new java.awt.Color(255, 255, 255));
-        jrt2.setText("jLabel1");
-
-        jkel.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jkel.setForeground(new java.awt.Color(255, 255, 255));
-        jkel.setText("jLabel1");
-
-        jkec.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jkec.setForeground(new java.awt.Color(255, 255, 255));
-        jkec.setText("jLabel1");
-
-        jkota.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jkota.setForeground(new java.awt.Color(255, 255, 255));
-        jkota.setText("jLabel1");
-
-        jagama.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jagama.setForeground(new java.awt.Color(255, 255, 255));
-        jagama.setText("jLabel1");
-
-        jstatus.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jstatus.setForeground(new java.awt.Color(255, 255, 255));
-        jstatus.setText("jLabel1");
-
-        jgoldar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jgoldar.setForeground(new java.awt.Color(255, 255, 255));
-        jgoldar.setText("jLabel1");
-
-        jkerja.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jkerja.setForeground(new java.awt.Color(255, 255, 255));
-        jkerja.setText("jLabel1");
-
-        jwarga.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jwarga.setForeground(new java.awt.Color(255, 255, 255));
-        jwarga.setText("jLabel1");
-
-        jnama.setBackground(new java.awt.Color(51, 51, 51));
-        jnama.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jnama.setForeground(new java.awt.Color(255, 255, 255));
-        jnama.setText("jLabel1");
-
-        jLabel15.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel15.setText("/");
-
-        javax.swing.GroupLayout panelGlass1Layout = new javax.swing.GroupLayout(panelGlass1);
-        panelGlass1.setLayout(panelGlass1Layout);
-        panelGlass1Layout.setHorizontalGroup(
-            panelGlass1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelGlass1Layout.createSequentialGroup()
-                .addGap(31, 31, 31)
-                .addGroup(panelGlass1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jagama)
-                    .addComponent(jstatus)
-                    .addComponent(jgoldar)
-                    .addComponent(jkerja)
-                    .addComponent(jwarga)
-                    .addComponent(jkota)
-                    .addComponent(jkel)
-                    .addComponent(jkec)
-                    .addComponent(jalamat)
-                    .addGroup(panelGlass1Layout.createSequentialGroup()
-                        .addGap(2, 2, 2)
-                        .addGroup(panelGlass1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(panelGlass1Layout.createSequentialGroup()
-                                .addComponent(jrt1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jrt2))
-                            .addComponent(jjk)
-                            .addGroup(panelGlass1Layout.createSequentialGroup()
-                                .addComponent(jttl1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jttl2))
-                            .addComponent(jnama, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(93, Short.MAX_VALUE))
-        );
-        panelGlass1Layout.setVerticalGroup(
-            panelGlass1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelGlass1Layout.createSequentialGroup()
-                .addGap(19, 19, 19)
-                .addComponent(jnama)
-                .addGap(18, 18, 18)
-                .addGroup(panelGlass1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jttl1)
-                    .addComponent(jLabel15)
-                    .addComponent(jttl2))
-                .addGap(25, 25, 25)
-                .addComponent(jjk)
-                .addGap(23, 23, 23)
-                .addComponent(jalamat)
-                .addGap(26, 26, 26)
-                .addGroup(panelGlass1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel16)
-                    .addComponent(jrt1)
-                    .addComponent(jrt2))
-                .addGap(15, 15, 15)
-                .addComponent(jkel)
-                .addGap(23, 23, 23)
-                .addComponent(jkec)
-                .addGap(23, 23, 23)
-                .addComponent(jkota)
-                .addGap(23, 23, 23)
-                .addComponent(jagama)
-                .addGap(23, 23, 23)
-                .addComponent(jstatus)
-                .addGap(23, 23, 23)
-                .addComponent(jgoldar)
-                .addGap(23, 23, 23)
-                .addComponent(jkerja)
-                .addGap(20, 20, 20)
-                .addComponent(jwarga)
-                .addContainerGap(25, Short.MAX_VALUE))
-        );
-
         jButton1.setText("Exit");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
+
+        jwarga.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jwarga.setForeground(new java.awt.Color(255, 255, 255));
+        jwarga.setText("jLabel1");
+
+        jkerja.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jkerja.setForeground(new java.awt.Color(255, 255, 255));
+        jkerja.setText("jLabel1");
+
+        jgoldar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jgoldar.setForeground(new java.awt.Color(255, 255, 255));
+        jgoldar.setText("jLabel1");
+
+        jstatus.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jstatus.setForeground(new java.awt.Color(255, 255, 255));
+        jstatus.setText("jLabel1");
+
+        jagama.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jagama.setForeground(new java.awt.Color(255, 255, 255));
+        jagama.setText("jLabel1");
+
+        jkota.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jkota.setForeground(new java.awt.Color(255, 255, 255));
+        jkota.setText("jLabel1");
+
+        jkec.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jkec.setForeground(new java.awt.Color(255, 255, 255));
+        jkec.setText("jLabel1");
+
+        jkel.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jkel.setForeground(new java.awt.Color(255, 255, 255));
+        jkel.setText("jLabel1");
+
+        jrt1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jrt1.setForeground(new java.awt.Color(255, 255, 255));
+        jrt1.setText("jLabel1");
+
+        jLabel16.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setText("/");
+
+        jrt2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jrt2.setForeground(new java.awt.Color(255, 255, 255));
+        jrt2.setText("jLabel1");
+
+        jalamat.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jalamat.setForeground(new java.awt.Color(255, 255, 255));
+        jalamat.setText("jLabel1");
+
+        jjk.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jjk.setForeground(new java.awt.Color(255, 255, 255));
+        jjk.setText("jLabel1");
+
+        jttl1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jttl1.setForeground(new java.awt.Color(255, 255, 255));
+        jttl1.setText("jLabel1");
+
+        jLabel15.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setText("/");
+
+        jttl2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jttl2.setForeground(new java.awt.Color(255, 255, 255));
+        jttl2.setText("jLabel1");
+
+        jnama.setBackground(new java.awt.Color(51, 51, 51));
+        jnama.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jnama.setForeground(new java.awt.Color(255, 255, 255));
+        jnama.setText("jLabel1");
 
         javax.swing.GroupLayout txtGoldarLayout = new javax.swing.GroupLayout(txtGoldar);
         txtGoldar.setLayout(txtGoldarLayout);
@@ -321,54 +247,110 @@ public class Posttest2Outpout extends javax.swing.JFrame {
                         .addComponent(labelRT)
                         .addComponent(labelJK))
                     .addComponent(labelNama))
-                .addGap(65, 65, 65)
-                .addComponent(panelGlass1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton1)
-                .addContainerGap(52, Short.MAX_VALUE))
+                .addGap(79, 79, 79)
+                .addGroup(txtGoldarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(txtGoldarLayout.createSequentialGroup()
+                        .addGroup(txtGoldarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jagama)
+                            .addComponent(jstatus)
+                            .addComponent(jgoldar)
+                            .addComponent(jkerja)
+                            .addComponent(jkota)
+                            .addComponent(jkel)
+                            .addComponent(jkec)
+                            .addComponent(jalamat)
+                            .addGroup(txtGoldarLayout.createSequentialGroup()
+                                .addGap(2, 2, 2)
+                                .addGroup(txtGoldarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(txtGoldarLayout.createSequentialGroup()
+                                        .addComponent(jrt1)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jrt2))
+                                    .addComponent(jjk)
+                                    .addGroup(txtGoldarLayout.createSequentialGroup()
+                                        .addComponent(jttl1)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jttl2))
+                                    .addComponent(jnama, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(txtGoldarLayout.createSequentialGroup()
+                        .addComponent(jwarga)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 242, Short.MAX_VALUE)
+                        .addComponent(jButton1)
+                        .addGap(149, 149, 149))))
         );
         txtGoldarLayout.setVerticalGroup(
             txtGoldarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(txtGoldarLayout.createSequentialGroup()
-                .addGroup(txtGoldarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(txtGoldarLayout.createSequentialGroup()
+                .addGap(21, 21, 21)
+                .addGroup(txtGoldarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, txtGoldarLayout.createSequentialGroup()
+                        .addComponent(labelNama)
+                        .addGap(18, 18, 18)
+                        .addComponent(labelTTL)
+                        .addGap(25, 25, 25)
+                        .addComponent(labelJK)
+                        .addGap(23, 23, 23)
+                        .addComponent(labelAlamat)
+                        .addGap(26, 26, 26)
+                        .addComponent(labelRT)
+                        .addGap(15, 15, 15)
+                        .addComponent(labelKelDesa)
+                        .addGap(23, 23, 23)
+                        .addComponent(labelKec)
+                        .addGap(23, 23, 23)
+                        .addComponent(labelKota)
+                        .addGap(23, 23, 23)
+                        .addComponent(labelAgama)
+                        .addGap(23, 23, 23)
+                        .addComponent(labelStatus)
+                        .addGap(23, 23, 23)
+                        .addComponent(labelGoldar)
+                        .addGap(23, 23, 23)
+                        .addComponent(labelPekerjaan)
+                        .addGap(20, 20, 20)
+                        .addComponent(label))
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, txtGoldarLayout.createSequentialGroup()
+                        .addComponent(jnama)
+                        .addGap(18, 18, 18)
+                        .addGroup(txtGoldarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jttl1)
+                            .addComponent(jLabel15)
+                            .addComponent(jttl2))
+                        .addGap(25, 25, 25)
+                        .addComponent(jjk)
+                        .addGap(23, 23, 23)
+                        .addComponent(jalamat)
+                        .addGap(26, 26, 26)
+                        .addGroup(txtGoldarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel16)
+                            .addComponent(jrt1)
+                            .addComponent(jrt2))
+                        .addGap(15, 15, 15)
+                        .addComponent(jkel)
+                        .addGap(23, 23, 23)
+                        .addComponent(jkec)
+                        .addGap(23, 23, 23)
+                        .addComponent(jkota)
+                        .addGap(23, 23, 23)
+                        .addComponent(jagama)
+                        .addGap(23, 23, 23)
+                        .addComponent(jstatus)
+                        .addGap(23, 23, 23)
+                        .addComponent(jgoldar)
+                        .addGap(23, 23, 23)
+                        .addComponent(jkerja)
+                        .addGap(20, 20, 20)
                         .addGroup(txtGoldarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(txtGoldarLayout.createSequentialGroup()
-                                .addGap(21, 21, 21)
-                                .addComponent(labelNama)
-                                .addGap(18, 18, 18)
-                                .addComponent(labelTTL)
-                                .addGap(25, 25, 25)
-                                .addComponent(labelJK)
-                                .addGap(23, 23, 23)
-                                .addComponent(labelAlamat)
-                                .addGap(26, 26, 26)
-                                .addComponent(labelRT)
-                                .addGap(15, 15, 15)
-                                .addComponent(labelKelDesa)
-                                .addGap(23, 23, 23)
-                                .addComponent(labelKec)
-                                .addGap(23, 23, 23)
-                                .addComponent(labelKota)
-                                .addGap(23, 23, 23)
-                                .addComponent(labelAgama)
-                                .addGap(23, 23, 23)
-                                .addComponent(labelStatus)
-                                .addGap(23, 23, 23)
-                                .addComponent(labelGoldar)
-                                .addGap(23, 23, 23)
-                                .addComponent(labelPekerjaan)
-                                .addGap(20, 20, 20)
-                                .addComponent(label))
-                            .addComponent(panelGlass1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 16, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, txtGoldarLayout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jButton1)))
-                .addContainerGap())
+                            .addComponent(jwarga)
+                            .addComponent(jButton1)))))
         );
 
-        getContentPane().add(txtGoldar, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(txtGoldar, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 570));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -447,7 +429,6 @@ public class Posttest2Outpout extends javax.swing.JFrame {
     private javax.swing.JLabel labelRT;
     private javax.swing.JLabel labelStatus;
     private javax.swing.JLabel labelTTL;
-    private usu.widget.glass.PanelGlass panelGlass1;
     private javax.swing.JPanel txtGoldar;
     // End of variables declaration//GEN-END:variables
 }
